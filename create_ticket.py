@@ -4,6 +4,7 @@ from jira import JIRA
 # Load config
 config = configparser.ConfigParser()
 config.read('config.ini')
+#jira urls
 
 JIRA_URL = config['jira']['JIRA_URL']
 EMAIL = config['jira']['JIRA_EMAIL']
